@@ -9,6 +9,10 @@
         padding: 0;
         font-family: 'Bai Jamjuree', sans-serif;
     }
+<<<<<<< HEAD
+    .main, .section-keep,
+    .section-access{
+=======
 
    
     .header {
@@ -33,8 +37,9 @@
     }
 
     .main, .section-keep{
+>>>>>>> 9fe897a46a58eb64d7b4d3a330408031ab1c9994
         margin: 2.5rem;
-        margin-bottom: 5rem;
+        margin-bottom: 10rem;
         text-align: center;
     }
 
@@ -51,11 +56,11 @@
     }
 
     h2{
-        font-size: 2.2rem;
+        font-size: 2.5rem;
     }
 
     h3{
-        font-size: 1.8rem;
+        font-size: 2.2rem;
     }
 
     p{
@@ -101,7 +106,9 @@
       padding: 0 2rem;  
     }
 
-    .section-keep .keep-img{
+    .section-keep .keep-img, 
+    .section-access .access-img{
         margin: 5rem 0 2rem 0;
         width: 100%;
     }
+    .section-access
