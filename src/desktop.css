@@ -1,8 +1,11 @@
-@media (min-width: 800px) {
+@media (min-width: 375px) {
 
   .header{
-      background-image: url(../assets/images/bg-header-desktop.png);
-      background-repeat: repeat-x;
+      background-image: url(../assets/images/bg-header-desktop.png), linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0));
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+
   }
 
 } 

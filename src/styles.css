@@ -12,9 +12,10 @@
 
    
     .header {
-        background-image: url(../assets/images/bg-header-mobile.png), linear-gradient(#ffffff, rgba(255,255,255,1));
+        background-image: url(../assets/images/bg-header-mobile.png), linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0));
         background-repeat: no-repeat;
         background-size: cover;
+        
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
