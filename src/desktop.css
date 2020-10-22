@@ -1,21 +1,9 @@
-<<<<<<< HEAD
-@media (min-width: 800px) {
 
-  .header{
-      background-image: url(../assets/images/bg-header-desktop.png);
-      background-repeat: repeat-x;
-  }
-
-=======
 @media (min-width: 375px) {
 
   .header{
       background-image: url(../assets/images/bg-header-desktop.png), linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0));
       background-repeat: no-repeat;
       background-size: cover;
-      
-
   }
-
->>>>>>> b5be77826a4f205fcab52d06dc6200d615527714
 } 
