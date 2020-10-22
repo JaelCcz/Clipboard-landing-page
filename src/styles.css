@@ -9,16 +9,13 @@
         padding: 0;
         font-family: 'Bai Jamjuree', sans-serif;
     }
-<<<<<<< HEAD
-    .main, .section-keep,
-    .section-access{
-=======
 
    
     .header {
-        background-image: url(../assets/images/bg-header-mobile.png), linear-gradient(#ffffff, rgba(255,255,255,1));
+        background-image: url(../assets/images/bg-header-mobile.png), linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0));
         background-repeat: no-repeat;
         background-size: cover;
+        
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -36,7 +33,6 @@
     }
 
     .main, .section-keep{
->>>>>>> 9fe897a46a58eb64d7b4d3a330408031ab1c9994
         margin: 2.5rem;
         margin-bottom: 10rem;
         text-align: center;
