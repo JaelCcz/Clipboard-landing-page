@@ -23,22 +23,20 @@
     
     }
     
-    .main-container{
-        /* margin-top: 50rem; */
-    }
-
     .header-logo {
         margin-top: 10rem;
         margin-bottom: 5rem;
     }
 
-    .main, .section-keep{
+    .main, .section-keep, 
+    .section-access, 
+    .section-scharge{
         margin: 2.5rem;
         margin-bottom: 10rem;
         text-align: center;
     }
 
-    .main h1,
+    h1,
     h2,
     h3{
         font-weight: 600;
@@ -106,4 +104,19 @@
         margin: 5rem 0 2rem 0;
         width: 100%;
     }
-    .section-access
+
+    .section-scharge .title-scharge{
+        padding:0 2rem;
+    }
+
+    .section-scharge 
+    .advantage-scharge
+    {
+        margin: 10rem 0;
+    }
+    .advantage-scharge
+    .create-scharge,
+    .plain-scharge,
+    .sneak-scharge{
+        margin-bottom: 5rem;
+    }
