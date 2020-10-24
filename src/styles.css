@@ -57,12 +57,14 @@
     .main, .section-keep, 
     .section-access, 
     .section-scharge,
-    .section-companies{
+    .section-companies,
+    .section-clipboard{
         margin: 2.5rem;
         margin-bottom: 10rem;
         text-align: center;
     }
 
+    .section-clipboard .btn-container,
     .main .btn-container{
         display: flex;
         justify-content: center;
@@ -70,25 +72,30 @@
         flex-wrap: wrap;
     }
 
+    .section-clipboard .btn-container-above,
+    .btn-container-below,
     .main .btn-container-above,
     .btn-container-below{
         margin: 1rem;
-        padding: 1rem 6rem;
-        border-radius: 2rem;
-        width: 300rem;
+        padding: 1.5rem 6rem;
+        border-radius: 3rem;
+        width: 20rem;
         font-family: 'Bai Jamjuree', sans-serif;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
+        font-weight: 600;
         color: white;
         transition: all 200ms;
         text-decoration: none;
     }
 
+    .section-clipboard .btn-above--green,
     .main .btn-above--green{
         border: 1px solid  hsl(171, 66%, 44%) ;
         background-color: hsl(171, 66%, 44%);
         box-shadow: 1px 4px 2px hsl(171, 66%, 39%);
     }
 
+    .section-clipboard .btn-below--blue,
     .main .btn-below--blue{
         border: 1px solid  hsl(233, 100%, 69%);
         background-color:hsl(233, 100%, 69%);
@@ -123,7 +130,6 @@
 
     .companie-container{
         padding: 0 5rem;
-        /* border: .1rem solid red; */
     }
 
     .companie-container img{
@@ -131,3 +137,7 @@
         width: 100%;
     }
 
+    .section-clipboard .clipboard-text{
+        margin-bottom: 3rem;
+        padding: 0 1rem;
+    }
