@@ -2,11 +2,12 @@
   margin: 0;
   padding: 0;
   font-size: 62.5%;
+  font-family: 'Bai Jamjuree', sans-serif;
 }
 
 .footer {
   display: grid;
-  background-color:  #e1e1e1;
+  background-color: hsl(201, 11%, 96%);
   grid-template: 1fr / 3fr;
   width: 100vw;
 }
@@ -34,6 +35,7 @@
   margin-bottom: 1rem;
   font-size: 1.8rem;
   text-align: center;
+
   text-decoration: none;
   color: hsl(210, 10%, 33%);
 }
@@ -53,7 +55,7 @@
 
   .footer {
     display: grid;
-    background-color:  #e1e1e1;
+   
     grid-template-columns: 1fr 3fr 1fr;
     width: 100vw;
   }
