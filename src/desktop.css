@@ -6,4 +6,20 @@
       background-repeat: no-repeat;
       background-size: cover;
   }
+
+  .btn-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .advantage-scharge {
+    display: flex;
+    flex-direction: row;
+  }
+  .advantage-scharge div {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+
 } 
