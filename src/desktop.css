@@ -1,13 +1,11 @@
 
-@media (min-width: 375px) {
+@media (min-width: 374px) {
 
   .header{
       background-image: url(../assets/images/bg-header-desktop.png), linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0));
       background-repeat: no-repeat;
       background-size: cover;
   }
-<<<<<<< HEAD
-=======
 
   .btn-container {
     display: flex;
@@ -33,6 +31,43 @@
     min-width: 50px;
   }
 
-
->>>>>>> master
-} 
+  .footer {
+    display: grid;
+     
+    grid-template-columns: 1fr 3fr 1fr;
+    width: 100vw;
+  }
+    
+  .footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    
+  .footer-logo img{
+    width: 5rem;
+  }
+    
+  .footer-links {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  }
+    
+  .footer-links a{
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+  }
+    
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    
+  .footer-social figure {
+    margin: 1rem;
+  }
+    
+    
+  }  
