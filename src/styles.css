@@ -9,17 +9,7 @@
         padding: 0;
         font-family: 'Bai Jamjuree', sans-serif;
     }
-<<<<<<< HEAD
-    .main, .section-keep{
-        margin: 2.5rem;
-        margin-bottom: 5rem;
-        text-align: center;
-    }
-
-    .main h1,
-=======
     h1,
->>>>>>> a74993ac44f292a0a063c3be0dd999083e6bc3f3
     h2,
     h3{
         font-weight: 600;
@@ -32,19 +22,11 @@
     }
 
     h2{
-<<<<<<< HEAD
-        font-size: 2.2rem;
-    }
-
-    h3{
-        font-size: 1.8rem;
-=======
         font-size: 2.5rem;
     }
 
     h3{
         font-size: 2.2rem;
->>>>>>> a74993ac44f292a0a063c3be0dd999083e6bc3f3
     }
 
     p{
@@ -54,8 +36,6 @@
         line-height: 1.5;
     }
 
-<<<<<<< HEAD
-=======
    
     .header {
         background-image: url(../assets/images/bg-header-mobile.png), linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0));
@@ -86,7 +66,6 @@
     }
 
     .section-clipboard .btn-container,
->>>>>>> a74993ac44f292a0a063c3be0dd999083e6bc3f3
     .main .btn-container{
         display: flex;
         justify-content: center;
@@ -94,16 +73,6 @@
         flex-wrap: wrap;
     }
 
-<<<<<<< HEAD
-    .main .btn-container-above,
-    .btn-container-below{
-        margin: 1rem;
-        padding: 1rem 6rem;
-        border-radius: 2rem;
-        width: 300rem;
-        font-family: 'Bai Jamjuree', sans-serif;
-        font-size: 1.8rem;
-=======
     .section-clipboard .btn-container-above,
     .btn-container-below,
     .main .btn-container-above,
@@ -115,26 +84,19 @@
         font-family: 'Bai Jamjuree', sans-serif;
         font-size: 1.6rem;
         font-weight: 600;
->>>>>>> a74993ac44f292a0a063c3be0dd999083e6bc3f3
         color: white;
         transition: all 200ms;
         text-decoration: none;
     }
 
-<<<<<<< HEAD
-=======
     .section-clipboard .btn-above--green,
->>>>>>> a74993ac44f292a0a063c3be0dd999083e6bc3f3
     .main .btn-above--green{
         border: 1px solid  hsl(171, 66%, 44%) ;
         background-color: hsl(171, 66%, 44%);
         box-shadow: 1px 4px 2px hsl(171, 66%, 39%);
     }
 
-<<<<<<< HEAD
-=======
     .section-clipboard .btn-below--blue,
->>>>>>> a74993ac44f292a0a063c3be0dd999083e6bc3f3
     .main .btn-below--blue{
         border: 1px solid  hsl(233, 100%, 69%);
         background-color:hsl(233, 100%, 69%);
@@ -145,11 +107,6 @@
       padding: 0 2rem;  
     }
 
-<<<<<<< HEAD
-    .section-keep .keep-img{
-        margin: 5rem 0 2rem 0;
-        width: 100%;
-=======
     .section-keep .keep-img, 
     .section-access .access-img{
         margin: 5rem 0 2rem 0;
@@ -209,5 +166,4 @@
 
     .footer .footer-social img{
         margin: 2rem;
->>>>>>> a74993ac44f292a0a063c3be0dd999083e6bc3f3
     }
