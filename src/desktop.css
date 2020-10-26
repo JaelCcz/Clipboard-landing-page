@@ -20,6 +20,16 @@
     margin-left: 2rem;
     margin-right: 2rem;
   }
+  .companie-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .companie-container__logo {
+    margin: 1rem 3rem;
+    width: 50rem;
+    min-width: 50px;
+  }
 
 
 } 
